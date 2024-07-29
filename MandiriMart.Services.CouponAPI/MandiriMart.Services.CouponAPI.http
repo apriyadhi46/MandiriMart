@@ -1,0 +1,6 @@
+@MandiriMart.Services.CouponAPI_HostAddress = http://localhost:5237
+
+GET {{MandiriMart.Services.CouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

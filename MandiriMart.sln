@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{01F23A43-2041-4756-9FA7-918D704499A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{41AE0141-1254-4E26-889C-11F9A46DAD03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{E48B7409-5E03-4DDA-8D4B-C41FFC07F7B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{386759FD-92B8-42DF-AC34-D2F77FCAE20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MandiriMart.Services.CouponAPI", "MandiriMart.Services.CouponAPI\MandiriMart.Services.CouponAPI.csproj", "{03AA74AF-B86E-452D-A04C-31CF82C95B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MandiriMart.Web", "MandiriMart.Web\MandiriMart.Web.csproj", "{1A58513D-D068-4A2B-9297-ACB215982834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MandiriMart.Services.AuthAPI", "MandiriMart.Services.AuthAPI\MandiriMart.Services.AuthAPI.csproj", "{F065D6F1-9B83-4EDD-B89A-7C4733D925C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03AA74AF-B86E-452D-A04C-31CF82C95B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AA74AF-B86E-452D-A04C-31CF82C95B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AA74AF-B86E-452D-A04C-31CF82C95B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AA74AF-B86E-452D-A04C-31CF82C95B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A58513D-D068-4A2B-9297-ACB215982834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A58513D-D068-4A2B-9297-ACB215982834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A58513D-D068-4A2B-9297-ACB215982834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A58513D-D068-4A2B-9297-ACB215982834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F065D6F1-9B83-4EDD-B89A-7C4733D925C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F065D6F1-9B83-4EDD-B89A-7C4733D925C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F065D6F1-9B83-4EDD-B89A-7C4733D925C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F065D6F1-9B83-4EDD-B89A-7C4733D925C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03AA74AF-B86E-452D-A04C-31CF82C95B1F} = {386759FD-92B8-42DF-AC34-D2F77FCAE20C}
+		{1A58513D-D068-4A2B-9297-ACB215982834} = {01F23A43-2041-4756-9FA7-918D704499A4}
+		{F065D6F1-9B83-4EDD-B89A-7C4733D925C6} = {386759FD-92B8-42DF-AC34-D2F77FCAE20C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA2842BE-10C7-4C5D-ACC5-56CAB7567B5E}
+	EndGlobalSection
+EndGlobal
